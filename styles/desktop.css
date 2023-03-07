@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1440px) {
+
+    html {
+        background-color: var(--v-light-gray-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        background-color: var(--white);
+        width: 47vw;
+        height: 84vh;
+        border-radius: 12px;
+        padding: 1em 1.75em;
+    }  
+
+    .notif a:hover {
+        color: var(--blue);
+    }
+
+    header>h1 {
+        margin: .75em 0;
+    }
+
+    #notif-count {
+        align-self: center;
+        font-size: 15px;
+        padding: .1em .7em;
+        border-radius: 5px;
+    }
+
+    #mark-all-read:hover {
+        color: var(--blue);
+        cursor: pointer;
+    }
+    
+    footer {
+        display: none;
+    }
+    
+    .notif {
+        margin: .5em auto;
+    }
+
+    .notif>p {
+        font-size: 14px;
+    }
+
+    .private-msg {
+        transition: all .1s ease-out;
+    }
+
+    .private-msg:hover {
+        background-color: var(--light-gray-blue-1);
+        cursor: pointer;
+        transition: all .2s ease-in;
+    }
+
+    .notif-picture {
+        transition: all .1s ease-out;
+    }
+
+    .notif-picture:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .2s ease-in;
+    }
+}
